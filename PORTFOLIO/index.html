@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f0a1e0882b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <div class="bg-img">
+        <img align="right" src="port/ss3.png" width="500" height="650">
+         </div>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="port/logo13.svg"  width="90" height="140"  class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">SIGN UP</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()" class="set"></i>
+                
+            </ul>
+            
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+        
+            <h1 class="head">Hello,</h1>
+           <br> <h1 class="head">I'm Shaily Yadav </h1>
+            <h3 class="para">Frontend Developer</h3>
+            
+        </div>
+    </div>
+</div>
+
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="port/shaily.png" alt="">
+
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                   <p>My name is shaily yadav and i'm from raebareli.Currently i am persuing my
+                     betech from kamla nehru institute of tecnology ,sultanpur. 
+                     My branch is electronics and i'm a final year student.
+                     I'm an enthusiastic, self-motivated,reliable and hardworking person.
+                     I'm able to do work well both in team environment as well as individually.</p> 
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>DBMS</span><br>Structured Querry Language</li>
+                                <li><span>Web Development</span><br>Designing App using Frontend</li>
+                                <li><span>C++</span><br>Data Structure and Algorithm</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experiance">
+                            <ul>
+                                <li><span>TalentServe (june 2023)</span><br>Work as a Software Engineer Intern</li>
+                                <li><span>INeybytes (2023-current)</span><br>Work as Web Development Intern</li>
+                        
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2017-2018</span><br>Secondary School</li>
+                                <li><span>2018-2019</span><br>Senior Secondary School</li>
+                                <li><span>2021-present</span><br>Bachelor Of Technology in Electronics</li>
+                            </ul>
+                        </div>
+                       
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+
+
+
+<!----------------------------skills---------------------------------------------->
+<div id ="skills">
+    <div class="container">
+        <h1 class="sub-title">MY SKILLS</h1>
+        <div class="skills-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web development</h2>
+            <p> A front-end developer creates 
+                websites and applications using web languages
+                 such as HTML, CSS, and JavaScript</p>
+                 <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Machine Learning</h2>
+            <p> Machine learning is a branch of artificial intelligence (AI)
+                 and computer science which focuses on 
+                the use of data and algorithms to imitate the way
+                 that humans learn, gradually improving its accuracy.</p>
+                  <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Data Structure & Algorithm(C++)</h2>
+            <p>Learning data structures and algorithms allow us to write 
+                efficient and optimized computer programs.
+                DSA with C++ is a plus point</p>
+                <a href="#">Learn more</a>
+        </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------------projects-------------------------------------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="port/s11.jpg" width="300px" height="250px">
+                <div class="layer">
+                    <h3>Starbucks App</h3>
+                    <p>Starbucks app that lets you place orders from your smartphone or
+                         tablet, as well as receive a large number of rewards.</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="port/weather.png" width="300px" height="250px" >
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>Weather apps enable users to get instant alerts regarding weather conditions.
+                         Weather apps are the simplest method to know about
+                         upcoming weather.</p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="port/ml1.jpg" width="300px" height="250px" >
+                <div class="layer">
+                <h3>IPL Score Predictor App</h3>
+                <p> IPL match predictor is a ML based prediction approach where the data
+                     sets and previous stats are trained in all dimensions covering all 
+                    important factors.</p>
+                    </div>
+            </div>
+        </div>
+
+
+        
+    </div>
+
+  
+</div>
+<!------------------------contact-------------------------->
+<div id="contact">
+<div class="container">
+    <div class="row">
+       
+        
+        <div class="contact-right">
+            <h1 class="sub-title">Sign Up</h1>
+            <form>
+                <input type="text" name="Name" placeholder="First Name" required>
+                <input type="text" name="Name" placeholder="Last Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="password" name="password" placeholder="Enter password" required>
+                <button type="sign up" class="btn btn2">Sign Up</button>
+            </form>
+                
+        </div>
+               <div class="contact-left">
+           
+            <h1 class="sub-title">Contact Me</h1><br>
+                <p><i class="fa-sharp fa-solid fa-envelope"></i>shailyyadav178@gmail.com</p>
+           <p><i class="fa-solid fa-phone"></i>08423188869</p>
+           <p><i class="fa-solid fa-location-dot"></i>L-499 RDA Colony Indira Nagar,<br>Raebareli</p>
+            <div class="social-icons">
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+            </div>
+           <a href="port/new resume.pdf" class="btn">Download CV</a>
+            
+            </div>
+    </div>
+</div>
+</div>
+
+
+
+
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+    
+</body>
+</html>
