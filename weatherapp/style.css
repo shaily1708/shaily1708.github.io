@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+   
+     width: 100%;
+
+   
+}
+
+.card{
+    width: 90%;
+    max-width: 440px;
+    background: linear-gradient(140deg,#2dabaf,#38257e);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 9px 23px;
+    text-align: center;
+    margin-top: 37px;
+    border: 3px solid rgb(116, 223, 223);
+    background-image: url(api/gif.gif);
+   
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.search input{
+    border: 3px solid #0000;
+    background: linear-gradient(140deg,#43f7caec,#17b9b1);
+    padding: 7px 13px;
+    border-radius: 20px;
+    flex: 1;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: #000;
+
+}
+.search button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+       border:1px solid #000;
+       background: #6decdb;
+
+}
+.weather-icon{
+    margin-top: 25px;
+    width: 160px;
+}
+.weather h1{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.weather h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;
+}
+.weather h2{
+    margin-top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    
+}
+.weather p{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+.error{
+    margin-left: 115px;
+    margin-top: 10px;
+    text-align:left;
+    font-size: 18px;
+    display: none;
+}
+
+
+@media only screen and (max-width: 800px){
+    .card{
+        width: 98%;
+        background: linear-gradient(140deg,#157275,#473783);
+        color: #fff;
+        text-align: center;
+        border: 3px solid rgb(116, 223, 223);
+         background-image: url(api/gif.gif);
+         
+            
+     
+    }
+    .search input{
+        border: 3px solid #0000;
+        background: linear-gradient(140deg,#43f7caec,#17b9b1);
+        padding: 4px 11px;
+        border-radius: 30px;
+        flex: 2px;
+        margin-right: 35px;
+        margin-left: 20px;
+        font-size: 13px;
+        color: #000;
+    
+}
+.search button{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+       border:2px solid #000;
+       background: #6decdb;
+       
+}
+}
+
+
